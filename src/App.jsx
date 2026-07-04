@@ -16,8 +16,19 @@ const App = () => { ////arrow funtion
       <button>Submit</button>
       <Header />
       <Hero />
-      
-
+      {/* we can use js directly using {}  */}
+      <h1>{3+3}</h1>
+      <h1>{new Date().getTime()}</h1>
+      {/* all tag has self close */}
+     <img src="" alt="" />
+     {/* to add any css class,we have to use className */}
+     <h1 className=''></h1>
+     {/* write all attribute on camelCase */}
+      <button onClick={()=>alert("Hello")}>Submit</button>
+      {/* inline css */}
+      <h1 style={
+        {color:'red'}
+      }>Meaw</h1>
       <ContactForm />
       <Footer />
     </div>
