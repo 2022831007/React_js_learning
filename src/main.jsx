@@ -6,7 +6,10 @@ import { createRoot } from 'react-dom/client'
 // import LoopInsideReact from './LoopInsideReact';
 // import ConditionRendering from './ConditionRendering';
 //  import ConditionRenderTernary from './ConditionRenderTernary';
-import ConditionRendLogicalAnd from './ConditionRendLogicalAnd';
+// import ConditionRendLogicalAnd from './ConditionRendLogicalAnd';
+// import ChildComponent from './component/childComponent'
+// import PassingObject from './component/PassingObject'
+import PassingFunction from './component/passingFunction'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
@@ -15,6 +18,10 @@ createRoot(document.getElementById('root')).render(
    {/* <ConditionRendering/> */}
    {/* <CoditionRenderSwitch/> */}
    {/* <ConditionRenderTernary/> */}
-   <ConditionRendLogicalAnd/>
+   {/* <ConditionRendLogicalAnd/>
+    */}
+    {/* <PassingObject/> */}
+    {/* <ChildComponent/> */}
+    <PassingFunction/>
   </StrictMode>,
 )
